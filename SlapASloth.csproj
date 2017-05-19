@@ -66,17 +66,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AddManager.cs" />
-    <Compile Include="Assets\AudioGUI.cs" />
-    <Compile Include="Assets\AudioManager.cs" />
-    <Compile Include="Assets\Bonus.cs" />
-    <Compile Include="Assets\BonusSpawner.cs" />
-    <Compile Include="Assets\BonusText.cs" />
-    <Compile Include="Assets\EndGameGUI.cs" />
-    <Compile Include="Assets\Explosion.cs" />
-    <Compile Include="Assets\LevelFinishedGUI.cs" />
+    <Compile Include="Assets\Scripts\Ads\AddManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Bonus\Bonus.cs" />
+    <Compile Include="Assets\Scripts\Bonus\BonusSpawner.cs" />
+    <Compile Include="Assets\Scripts\Effects\Explosion.cs" />
+    <Compile Include="Assets\Scripts\Effects\StarSpawner.cs" />
+    <Compile Include="Assets\Scripts\GUI\AudioGUI.cs" />
+    <Compile Include="Assets\Scripts\GUI\BonusText.cs" />
     <Compile Include="Assets\Scripts\GUI\CoinInfoGUI.cs" />
+    <Compile Include="Assets\Scripts\GUI\EndGameGUI.cs" />
     <Compile Include="Assets\Scripts\GUI\HealthbarGUI.cs" />
+    <Compile Include="Assets\Scripts\GUI\LevelFinishedGUI.cs" />
+    <Compile Include="Assets\Scripts\GUI\UpgradeSlotGUI.cs" />
+    <Compile Include="Assets\Scripts\GUI\UpgradesGUI.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Global\Global.cs" />
     <Compile Include="Assets\Scripts\MultiplatformInput\MultiplatformInput.cs" />
@@ -85,7 +88,6 @@
     <Compile Include="Assets\Scripts\Sloth\SlothStats.cs" />
     <Compile Include="Assets\Scripts\Sloth\SlothWorldInteraction.cs" />
     <Compile Include="Assets\Scripts\Timer\Timer.cs" />
-    <Compile Include="Assets\StarSpawner.cs" />
     <Compile Include="Assets\UnityAdsHelper\Examples\Scripts\ButtonExample.cs" />
     <Compile Include="Assets\UnityAdsHelper\Examples\Scripts\CreditsButton.cs" />
     <Compile Include="Assets\UnityAdsHelper\Examples\Scripts\DontDestroyOnLoad.cs" />
@@ -94,8 +96,6 @@
     <Compile Include="Assets\UnityAdsHelper\Scripts\UnityAdsHelper.cs" />
     <Compile Include="Assets\UnityAdsHelper\Scripts\UnityAdsOnLoad.cs" />
     <Compile Include="Assets\UnityAdsHelper\Scripts\UnityAdsSettings.cs" />
-    <Compile Include="Assets\UpgradeSlotGUI.cs" />
-    <Compile Include="Assets\UpgradesGUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UnityAdsHelper\Examples\Audio\ReadMe.txt" />
