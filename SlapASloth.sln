@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlapASloth", "SlapASloth.csproj", "{A459A4EF-7E0A-86A6-B38A-4A3E24E61B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlapASloth.Editor", "SlapASloth.Editor.csproj", "{C5A29269-61F6-35CF-E427-5680609718D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A459A4EF-7E0A-86A6-B38A-4A3E24E61B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A459A4EF-7E0A-86A6-B38A-4A3E24E61B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A459A4EF-7E0A-86A6-B38A-4A3E24E61B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A459A4EF-7E0A-86A6-B38A-4A3E24E61B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A29269-61F6-35CF-E427-5680609718D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A29269-61F6-35CF-E427-5680609718D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A29269-61F6-35CF-E427-5680609718D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A29269-61F6-35CF-E427-5680609718D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
